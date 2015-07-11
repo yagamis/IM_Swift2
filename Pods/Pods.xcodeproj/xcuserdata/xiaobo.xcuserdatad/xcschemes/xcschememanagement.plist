@@ -4,6 +4,26 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Pods-KxMenu.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-PopMenu.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-XHRealTimeBlur.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-pop.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -12,7 +32,27 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>F4A4AF69C52822572383AF05</key>
+		<key>22135EB6129D79184C6E1E58</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A0DBCE66574A6FD5EC0CD936</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B82A688BA6B04EDD5F720187</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F1BABBD19154F8770C8F58A7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FFA5BDE9CD9C039E297A3127</key>
 		<dict>
 			<key>primary</key>
 			<true/>

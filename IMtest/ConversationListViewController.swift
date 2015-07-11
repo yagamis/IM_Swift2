@@ -10,6 +10,84 @@ import UIKit
 
 class ConversationListViewController: RCConversationListViewController {
     
+    @IBAction func ShowMenu(sender: UIBarButtonItem) {
+//        var frame = sender.valueForKey("view")?.frame
+//        frame?.origin.y = (frame?.origin.y)! + 30
+//       
+//        
+//        let menuItems = [
+//            KxMenuItem("客服",image: UIImage(named: "serve"), target:self, action: "ClickMenu1"),
+//            KxMenuItem("测试与小波聊天",image: UIImage(named: "contact"), target:self,action: "ClickMenu2"),
+//        ]
+//        
+//        KxMenu.showMenuInView(self.view, fromRect:frame!, menuItems: menuItems)
+        
+        let items = [
+            MenuItem(title: "客服", iconName: "serve", glowColor: UIColor.redColor(), index: 0),
+            MenuItem(title: "与小波聊天", iconName: "contact", glowColor: UIColor.blueColor(), index: 1),
+            MenuItem(title: "通讯录", iconName: "coversation", glowColor: UIColor.yellowColor(), index: 2),
+            MenuItem(title: "关于", iconName: "about", glowColor: UIColor.grayColor(), index: 3)
+        ]
+        
+        let menu = PopMenu(frame: self.view.bounds, items: items)
+        
+        menu.menuAnimationType = .NetEase
+        
+        if menu.isShowed {
+            return
+        }
+        
+        menu.didSelectedItemCompletion = { (selectedItem: MenuItem!) -> Void in
+            
+            switch selectedItem.index {
+            case 1:
+                //代码跳转到会话界面
+                let conVC = RCConversationViewController()
+                
+                conVC.targetId = "xiaobo"
+                conVC.userName = "小波"
+                conVC.conversationType = RCConversationType.ConversationType_PRIVATE
+                
+                conVC.title = conVC.userName
+                
+                self.navigationController?.pushViewController(conVC, animated: true)
+                
+                self.tabBarController?.tabBar.hidden = true
+
+                
+            default :
+                print(selectedItem.title)
+            }
+            
+        }
+        
+        menu.showMenuAtView(self.view)
+        
+        
+
+        
+    }
+    
+    func ClickMenu1() {
+        print("与客服聊天")
+    }
+    
+    func ClickMenu2() {
+                //代码跳转到会话界面
+                let conVC = RCConversationViewController()
+        
+                conVC.targetId = "xiaobo"
+                conVC.userName = "小波"
+                conVC.conversationType = RCConversationType.ConversationType_PRIVATE
+        
+                conVC.title = conVC.userName
+        
+                self.navigationController?.pushViewController(conVC, animated: true)
+                
+                self.tabBarController?.tabBar.hidden = true
+    }
+    
+    
     let conVC = RCConversationViewController()
 
     override func viewDidLoad() {

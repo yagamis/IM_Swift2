@@ -40,11 +40,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate,RCIMUserInfoDataSource {
     
     
     func connectServer(completion:()->Void) {
-        //获取保存的token
-        let deviceTokenCache = NSUserDefaults.standardUserDefaults().objectForKey("kDeviceToken") as? String
+//        //获取保存的token
+//        let deviceTokenCache = NSUserDefaults.standardUserDefaults().objectForKey("kDeviceToken") as? String
         
         //初始化app key
-        RCIM.sharedRCIM().initWithAppKey("mgb7ka1nb5iyg", deviceToken: deviceTokenCache)
+        RCIM.sharedRCIM().initWithAppKey("mgb7ka1nb5iyg")
+
         
         RCIM.sharedRCIM().connectWithToken("4LRqUHV0InlagkAbEf6hvjKtH8IlMmEOciCCZLfDAbJG8SZ6z4BDi9vFBL/0nfR4ZCL16tPrzvGgd6YoZudhew==", success: { (str:String!) -> Void in
 

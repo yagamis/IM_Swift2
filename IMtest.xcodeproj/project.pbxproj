@@ -48,7 +48,7 @@
 		1DD464B91B1D5B2800E00878 /* IMtestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IMtestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DD464BE1B1D5B2800E00878 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1DD464BF1B1D5B2800E00878 /* IMtestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMtestTests.swift; sourceTree = "<group>"; };
-		1DD464C91B1D5C0F00E00878 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		1DD464C91B1D5C0F00E00878 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1DD464CB1B1DB93500E00878 /* IMtest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IMtest-Bridging-Header.h"; sourceTree = "<group>"; };
 		5DE686B6FF8817BFE1DDD632 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		829D601992AB26D1E50AFDCC /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };

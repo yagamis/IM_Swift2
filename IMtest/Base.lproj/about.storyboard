@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8121.20" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="6UB-Wj-olg">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8152.3" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="6UB-Wj-olg">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8101.16"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8124.4"/>
     </dependencies>
     <scenes>
         <!--关于-->
@@ -23,11 +23,11 @@
             </objects>
             <point key="canvasLocation" x="3122" y="2336"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--关于-->
         <scene sceneID="swF-3k-BOX">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="6UB-Wj-olg" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" image="about" id="8C2-4B-ioz"/>
+                    <tabBarItem key="tabBarItem" title="关于" image="about" id="8C2-4B-ioz"/>
                     <toolbarItems/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="black" id="OTN-ni-oe0">
@@ -45,6 +45,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="about" width="44" height="44"/>
+        <image name="about" width="22" height="22"/>
     </resources>
 </document>

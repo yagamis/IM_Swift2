@@ -1,0 +1,6 @@
+#include "Pods-XHRealTimeBlur.xcconfig"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/XHRealTimeBlur" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/KxMenu" "${PODS_ROOT}/Headers/Public/PopMenu" "${PODS_ROOT}/Headers/Public/RongCloudIMKit" "${PODS_ROOT}/Headers/Public/XHRealTimeBlur" "${PODS_ROOT}/Headers/Public/pop"
+OTHER_LDFLAGS = ${PODS_XHREALTIMEBLUR_OTHER_LDFLAGS} -ObjC
+PODS_ROOT = ${SRCROOT}
+SKIP_INSTALL = YES

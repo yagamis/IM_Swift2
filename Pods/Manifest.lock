@@ -1,10 +1,22 @@
 PODS:
-  - RongCloudIMKit (2.1.0)
+  - KxMenu (1)
+  - pop (1.0.7)
+  - PopMenu (2.4):
+    - pop
+    - XHRealTimeBlur
+  - RongCloudIMKit (2.2.1)
+  - XHRealTimeBlur (1.7)
 
 DEPENDENCIES:
+  - KxMenu
+  - PopMenu
   - RongCloudIMKit
 
 SPEC CHECKSUMS:
-  RongCloudIMKit: 133926aeb1fb2778a56d7ab215dfe74a70417faf
+  KxMenu: c025365712f55fa99feb7830fbb7dea0e912be72
+  pop: 628ffc631644601567ee8bfaaaea493ebd7d0923
+  PopMenu: 26b97baeaf250070f4f61b93727ca86d127d7bc5
+  RongCloudIMKit: a0a277a6eba722b99cde4298eb0aa845192c6937
+  XHRealTimeBlur: 661fadd5691ba2d349758e8fd5fbdb499ac55f8c
 
 COCOAPODS: 0.37.2

@@ -2,11 +2,12 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "coversation.png",
+      "filename" : "coversation-1.png",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
+      "filename" : "coversation.png",
       "scale" : "2x"
     },
     {

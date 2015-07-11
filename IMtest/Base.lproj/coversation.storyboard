@@ -20,7 +20,7 @@
                     <navigationItem key="navigationItem" title="最近会话" id="rFH-xr-e5z">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="hv5-4i-7ZB">
                             <connections>
-                                <segue destination="BYZ-38-t0r" kind="show" id="DyC-T5-BAH"/>
+                                <action selector="ShowMenu:" destination="y8M-v3-aNG" id="lXK-dU-AU4"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -52,11 +52,11 @@
             </objects>
             <point key="canvasLocation" x="3624" y="205"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--会话-->
         <scene sceneID="bDL-7K-ien">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="xKf-j7-LOD" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" image="coversation" id="ITm-hf-jhr"/>
+                    <tabBarItem key="tabBarItem" title="会话" image="coversation" id="ITm-hf-jhr"/>
                     <toolbarItems/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="black" id="xOZ-Hi-VgP">
@@ -74,9 +74,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="coversation" width="59" height="45"/>
+        <image name="coversation" width="29" height="22"/>
     </resources>
-    <inferredMetricsTieBreakers>
-        <segue reference="GlX-4n-hQ3"/>
-    </inferredMetricsTieBreakers>
 </document>
