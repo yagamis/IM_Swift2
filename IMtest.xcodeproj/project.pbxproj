@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D2EE8E11B5CAD9F007F2BF3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2EE8E01B5CAD9F007F2BF3 /* LoginViewController.swift */; };
+		1D2EE8E31B5CAF61007F2BF3 /* RoundImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2EE8E21B5CAF61007F2BF3 /* RoundImageView.swift */; };
+		1D2EE8E61B5CCE26007F2BF3 /* RCAnimatedImagesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2EE8E51B5CCE26007F2BF3 /* RCAnimatedImagesView.m */; };
 		1D9FBD861B4530010039F9B6 /* ConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9FBD851B4530010039F9B6 /* ConversationViewController.swift */; };
 		1D9FBD881B4531420039F9B6 /* ConversationListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9FBD871B4531420039F9B6 /* ConversationListViewController.swift */; };
 		1D9FBD8B1B453B920039F9B6 /* coversation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D9FBD891B453B920039F9B6 /* coversation.storyboard */; };
@@ -33,6 +36,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1D2EE8E01B5CAD9F007F2BF3 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		1D2EE8E21B5CAF61007F2BF3 /* RoundImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundImageView.swift; sourceTree = "<group>"; };
+		1D2EE8E41B5CCE26007F2BF3 /* RCAnimatedImagesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCAnimatedImagesView.h; sourceTree = "<group>"; };
+		1D2EE8E51B5CCE26007F2BF3 /* RCAnimatedImagesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCAnimatedImagesView.m; sourceTree = "<group>"; };
 		1D9FBD851B4530010039F9B6 /* ConversationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversationViewController.swift; sourceTree = "<group>"; };
 		1D9FBD871B4531420039F9B6 /* ConversationListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversationListViewController.swift; sourceTree = "<group>"; };
 		1D9FBD8A1B453B920039F9B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/coversation.storyboard; sourceTree = "<group>"; };
@@ -98,8 +105,12 @@
 		1DD464A61B1D5B2800E00878 /* IMtest */ = {
 			isa = PBXGroup;
 			children = (
+				1D2EE8E41B5CCE26007F2BF3 /* RCAnimatedImagesView.h */,
+				1D2EE8E51B5CCE26007F2BF3 /* RCAnimatedImagesView.m */,
 				1DD464A91B1D5B2800E00878 /* AppDelegate.swift */,
 				1DD464AD1B1D5B2800E00878 /* Main.storyboard */,
+				1D2EE8E21B5CAF61007F2BF3 /* RoundImageView.swift */,
+				1D2EE8E01B5CAD9F007F2BF3 /* LoginViewController.swift */,
 				1D9FBD921B453CAF0039F9B6 /* about.storyboard */,
 				1D9FBD8F1B453C940039F9B6 /* serve.storyboard */,
 				1D9FBD8C1B453C750039F9B6 /* contact.storyboard */,
@@ -297,6 +308,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D2EE8E31B5CAF61007F2BF3 /* RoundImageView.swift in Sources */,
+				1D2EE8E11B5CAD9F007F2BF3 /* LoginViewController.swift in Sources */,
+				1D2EE8E61B5CCE26007F2BF3 /* RCAnimatedImagesView.m in Sources */,
 				1D9FBD881B4531420039F9B6 /* ConversationListViewController.swift in Sources */,
 				1DD464AA1B1D5B2800E00878 /* AppDelegate.swift in Sources */,
 				1D9FBD861B4530010039F9B6 /* ConversationViewController.swift in Sources */,

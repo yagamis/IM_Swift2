@@ -6,11 +6,23 @@
 // project.
 
 
+// JSAnimatedImagesView
+#define COCOAPODS_POD_AVAILABLE_JSAnimatedImagesView
+#define COCOAPODS_VERSION_MAJOR_JSAnimatedImagesView 1
+#define COCOAPODS_VERSION_MINOR_JSAnimatedImagesView 0
+#define COCOAPODS_VERSION_PATCH_JSAnimatedImagesView 0
+
 // KxMenu
 #define COCOAPODS_POD_AVAILABLE_KxMenu
 #define COCOAPODS_VERSION_MAJOR_KxMenu 1
 #define COCOAPODS_VERSION_MINOR_KxMenu 0
 #define COCOAPODS_VERSION_PATCH_KxMenu 0
+
+// MSWeakTimer
+#define COCOAPODS_POD_AVAILABLE_MSWeakTimer
+#define COCOAPODS_VERSION_MAJOR_MSWeakTimer 1
+#define COCOAPODS_VERSION_MINOR_MSWeakTimer 1
+#define COCOAPODS_VERSION_PATCH_MSWeakTimer 0
 
 // PopMenu
 #define COCOAPODS_POD_AVAILABLE_PopMenu
@@ -22,7 +34,7 @@
 #define COCOAPODS_POD_AVAILABLE_RongCloudIMKit
 #define COCOAPODS_VERSION_MAJOR_RongCloudIMKit 2
 #define COCOAPODS_VERSION_MINOR_RongCloudIMKit 2
-#define COCOAPODS_VERSION_PATCH_RongCloudIMKit 1
+#define COCOAPODS_VERSION_PATCH_RongCloudIMKit 3
 
 // XHRealTimeBlur
 #define COCOAPODS_POD_AVAILABLE_XHRealTimeBlur
