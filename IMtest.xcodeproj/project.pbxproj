@@ -10,12 +10,17 @@
 		1D2EE8E11B5CAD9F007F2BF3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2EE8E01B5CAD9F007F2BF3 /* LoginViewController.swift */; };
 		1D2EE8E31B5CAF61007F2BF3 /* RoundImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2EE8E21B5CAF61007F2BF3 /* RoundImageView.swift */; };
 		1D2EE8E61B5CCE26007F2BF3 /* RCAnimatedImagesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2EE8E51B5CCE26007F2BF3 /* RCAnimatedImagesView.m */; };
+		1D35F6C01B670B56006B7A9B /* UIView+ViewRecursion.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D35F6BF1B670B56006B7A9B /* UIView+ViewRecursion.m */; };
+		1D35F6C31B671563006B7A9B /* SwiftNotice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D35F6C21B671563006B7A9B /* SwiftNotice.swift */; };
+		1D35F6C51B671706006B7A9B /* UITextBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D35F6C41B671706006B7A9B /* UITextBox.swift */; };
 		1D9FBD861B4530010039F9B6 /* ConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9FBD851B4530010039F9B6 /* ConversationViewController.swift */; };
 		1D9FBD881B4531420039F9B6 /* ConversationListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9FBD871B4531420039F9B6 /* ConversationListViewController.swift */; };
 		1D9FBD8B1B453B920039F9B6 /* coversation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D9FBD891B453B920039F9B6 /* coversation.storyboard */; };
 		1D9FBD8E1B453C750039F9B6 /* contact.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D9FBD8C1B453C750039F9B6 /* contact.storyboard */; };
 		1D9FBD911B453C940039F9B6 /* serve.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D9FBD8F1B453C940039F9B6 /* serve.storyboard */; };
 		1D9FBD941B453CAF0039F9B6 /* about.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D9FBD921B453CAF0039F9B6 /* about.storyboard */; };
+		1DA9C20B1B65CBBD003C39A6 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DA9C2091B65CBBD003C39A6 /* Login.storyboard */; };
+		1DA9C20D1B65CD55003C39A6 /* RegTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA9C20C1B65CD55003C39A6 /* RegTableViewController.swift */; };
 		1DD464AA1B1D5B2800E00878 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD464A91B1D5B2800E00878 /* AppDelegate.swift */; };
 		1DD464AF1B1D5B2800E00878 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DD464AD1B1D5B2800E00878 /* Main.storyboard */; };
 		1DD464B11B1D5B2800E00878 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DD464B01B1D5B2800E00878 /* Images.xcassets */; };
@@ -40,12 +45,18 @@
 		1D2EE8E21B5CAF61007F2BF3 /* RoundImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundImageView.swift; sourceTree = "<group>"; };
 		1D2EE8E41B5CCE26007F2BF3 /* RCAnimatedImagesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCAnimatedImagesView.h; sourceTree = "<group>"; };
 		1D2EE8E51B5CCE26007F2BF3 /* RCAnimatedImagesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCAnimatedImagesView.m; sourceTree = "<group>"; };
+		1D35F6BE1B670B56006B7A9B /* UIView+ViewRecursion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ViewRecursion.h"; sourceTree = "<group>"; };
+		1D35F6BF1B670B56006B7A9B /* UIView+ViewRecursion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ViewRecursion.m"; sourceTree = "<group>"; };
+		1D35F6C21B671563006B7A9B /* SwiftNotice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftNotice.swift; sourceTree = "<group>"; };
+		1D35F6C41B671706006B7A9B /* UITextBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextBox.swift; sourceTree = "<group>"; };
 		1D9FBD851B4530010039F9B6 /* ConversationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversationViewController.swift; sourceTree = "<group>"; };
 		1D9FBD871B4531420039F9B6 /* ConversationListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversationListViewController.swift; sourceTree = "<group>"; };
 		1D9FBD8A1B453B920039F9B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/coversation.storyboard; sourceTree = "<group>"; };
 		1D9FBD8D1B453C750039F9B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/contact.storyboard; sourceTree = "<group>"; };
 		1D9FBD901B453C940039F9B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/serve.storyboard; sourceTree = "<group>"; };
 		1D9FBD931B453CAF0039F9B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/about.storyboard; sourceTree = "<group>"; };
+		1DA9C20A1B65CBBD003C39A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Login.storyboard; sourceTree = "<group>"; };
+		1DA9C20C1B65CD55003C39A6 /* RegTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegTableViewController.swift; sourceTree = "<group>"; };
 		1DD464A41B1D5B2800E00878 /* IMtest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IMtest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DD464A81B1D5B2800E00878 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1DD464A91B1D5B2800E00878 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -81,6 +92,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D35F6C11B670B61006B7A9B /* 3rd party */ = {
+			isa = PBXGroup;
+			children = (
+				1D35F6BF1B670B56006B7A9B /* UIView+ViewRecursion.m */,
+				1D35F6C41B671706006B7A9B /* UITextBox.swift */,
+				1D35F6C21B671563006B7A9B /* SwiftNotice.swift */,
+				1D2EE8E41B5CCE26007F2BF3 /* RCAnimatedImagesView.h */,
+				1D2EE8E51B5CCE26007F2BF3 /* RCAnimatedImagesView.m */,
+				1D35F6BE1B670B56006B7A9B /* UIView+ViewRecursion.h */,
+			);
+			name = "3rd party";
+			sourceTree = "<group>";
+		};
 		1DD4649B1B1D5B2800E00878 = {
 			isa = PBXGroup;
 			children = (
@@ -105,10 +129,11 @@
 		1DD464A61B1D5B2800E00878 /* IMtest */ = {
 			isa = PBXGroup;
 			children = (
-				1D2EE8E41B5CCE26007F2BF3 /* RCAnimatedImagesView.h */,
-				1D2EE8E51B5CCE26007F2BF3 /* RCAnimatedImagesView.m */,
+				1D35F6C11B670B61006B7A9B /* 3rd party */,
 				1DD464A91B1D5B2800E00878 /* AppDelegate.swift */,
 				1DD464AD1B1D5B2800E00878 /* Main.storyboard */,
+				1DA9C2091B65CBBD003C39A6 /* Login.storyboard */,
+				1DA9C20C1B65CD55003C39A6 /* RegTableViewController.swift */,
 				1D2EE8E21B5CAF61007F2BF3 /* RoundImageView.swift */,
 				1D2EE8E01B5CAD9F007F2BF3 /* LoginViewController.swift */,
 				1D9FBD921B453CAF0039F9B6 /* about.storyboard */,
@@ -258,6 +283,7 @@
 				1D9FBD911B453C940039F9B6 /* serve.storyboard in Resources */,
 				1DD464B11B1D5B2800E00878 /* Images.xcassets in Resources */,
 				1D9FBD8E1B453C750039F9B6 /* contact.storyboard in Resources */,
+				1DA9C20B1B65CBBD003C39A6 /* Login.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,12 +334,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D35F6C51B671706006B7A9B /* UITextBox.swift in Sources */,
 				1D2EE8E31B5CAF61007F2BF3 /* RoundImageView.swift in Sources */,
 				1D2EE8E11B5CAD9F007F2BF3 /* LoginViewController.swift in Sources */,
+				1D35F6C01B670B56006B7A9B /* UIView+ViewRecursion.m in Sources */,
 				1D2EE8E61B5CCE26007F2BF3 /* RCAnimatedImagesView.m in Sources */,
 				1D9FBD881B4531420039F9B6 /* ConversationListViewController.swift in Sources */,
 				1DD464AA1B1D5B2800E00878 /* AppDelegate.swift in Sources */,
+				1D35F6C31B671563006B7A9B /* SwiftNotice.swift in Sources */,
 				1D9FBD861B4530010039F9B6 /* ConversationViewController.swift in Sources */,
+				1DA9C20D1B65CD55003C39A6 /* RegTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,6 +396,14 @@
 				1D9FBD931B453CAF0039F9B6 /* Base */,
 			);
 			name = about.storyboard;
+			sourceTree = "<group>";
+		};
+		1DA9C2091B65CBBD003C39A6 /* Login.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DA9C20A1B65CBBD003C39A6 /* Base */,
+			);
+			name = Login.storyboard;
 			sourceTree = "<group>";
 		};
 		1DD464AD1B1D5B2800E00878 /* Main.storyboard */ = {
