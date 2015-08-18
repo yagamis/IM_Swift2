@@ -13,6 +13,7 @@
 		1D35F6C01B670B56006B7A9B /* UIView+ViewRecursion.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D35F6BF1B670B56006B7A9B /* UIView+ViewRecursion.m */; };
 		1D35F6C31B671563006B7A9B /* SwiftNotice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D35F6C21B671563006B7A9B /* SwiftNotice.swift */; };
 		1D35F6C51B671706006B7A9B /* UITextBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D35F6C41B671706006B7A9B /* UITextBox.swift */; };
+		1D52C8341B7F82F200FC263A /* Inputs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D52C8331B7F82F200FC263A /* Inputs.swift */; };
 		1D9FBD861B4530010039F9B6 /* ConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9FBD851B4530010039F9B6 /* ConversationViewController.swift */; };
 		1D9FBD881B4531420039F9B6 /* ConversationListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9FBD871B4531420039F9B6 /* ConversationListViewController.swift */; };
 		1D9FBD8B1B453B920039F9B6 /* coversation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D9FBD891B453B920039F9B6 /* coversation.storyboard */; };
@@ -49,6 +50,8 @@
 		1D35F6BF1B670B56006B7A9B /* UIView+ViewRecursion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ViewRecursion.m"; sourceTree = "<group>"; };
 		1D35F6C21B671563006B7A9B /* SwiftNotice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftNotice.swift; sourceTree = "<group>"; };
 		1D35F6C41B671706006B7A9B /* UITextBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextBox.swift; sourceTree = "<group>"; };
+		1D52C8331B7F82F200FC263A /* Inputs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Inputs.swift; sourceTree = "<group>"; };
+		1D52C8351B7F846000FC263A /* test.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = test.playground; sourceTree = "<group>"; };
 		1D9FBD851B4530010039F9B6 /* ConversationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversationViewController.swift; sourceTree = "<group>"; };
 		1D9FBD871B4531420039F9B6 /* ConversationListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversationListViewController.swift; sourceTree = "<group>"; };
 		1D9FBD8A1B453B920039F9B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/coversation.storyboard; sourceTree = "<group>"; };
@@ -134,6 +137,8 @@
 				1DD464AD1B1D5B2800E00878 /* Main.storyboard */,
 				1DA9C2091B65CBBD003C39A6 /* Login.storyboard */,
 				1DA9C20C1B65CD55003C39A6 /* RegTableViewController.swift */,
+				1D52C8331B7F82F200FC263A /* Inputs.swift */,
+				1D52C8351B7F846000FC263A /* test.playground */,
 				1D2EE8E21B5CAF61007F2BF3 /* RoundImageView.swift */,
 				1D2EE8E01B5CAD9F007F2BF3 /* LoginViewController.swift */,
 				1D9FBD921B453CAF0039F9B6 /* about.storyboard */,
@@ -343,6 +348,7 @@
 				1DD464AA1B1D5B2800E00878 /* AppDelegate.swift in Sources */,
 				1D35F6C31B671563006B7A9B /* SwiftNotice.swift in Sources */,
 				1D9FBD861B4530010039F9B6 /* ConversationViewController.swift in Sources */,
+				1D52C8341B7F82F200FC263A /* Inputs.swift in Sources */,
 				1DA9C20D1B65CD55003C39A6 /* RegTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

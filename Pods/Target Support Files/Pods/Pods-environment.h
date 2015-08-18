@@ -6,6 +6,12 @@
 // project.
 
 
+// AJWValidator
+#define COCOAPODS_POD_AVAILABLE_AJWValidator
+#define COCOAPODS_VERSION_MAJOR_AJWValidator 0
+#define COCOAPODS_VERSION_MINOR_AJWValidator 0
+#define COCOAPODS_VERSION_PATCH_AJWValidator 7
+
 // JSAnimatedImagesView
 #define COCOAPODS_POD_AVAILABLE_JSAnimatedImagesView
 #define COCOAPODS_VERSION_MAJOR_JSAnimatedImagesView 1
@@ -34,7 +40,7 @@
 #define COCOAPODS_POD_AVAILABLE_RongCloudIMKit
 #define COCOAPODS_VERSION_MAJOR_RongCloudIMKit 2
 #define COCOAPODS_VERSION_MINOR_RongCloudIMKit 2
-#define COCOAPODS_VERSION_PATCH_RongCloudIMKit 3
+#define COCOAPODS_VERSION_PATCH_RongCloudIMKit 7
 
 // XHRealTimeBlur
 #define COCOAPODS_POD_AVAILABLE_XHRealTimeBlur

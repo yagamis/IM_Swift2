@@ -8,4 +8,5 @@
 #import <JSAnimatedImagesView/JSAnimatedImagesView.h>
 #import "RCAnimatedImagesView.h"
 #import "UIView+ViewRecursion.h"
+#import <AJWValidator/AJWValidator.h>
 
