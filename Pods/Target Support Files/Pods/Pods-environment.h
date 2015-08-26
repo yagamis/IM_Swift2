@@ -12,6 +12,13 @@
 #define COCOAPODS_VERSION_MINOR_AJWValidator 0
 #define COCOAPODS_VERSION_PATCH_AJWValidator 7
 
+// AVOSCloud
+#define COCOAPODS_POD_AVAILABLE_AVOSCloud
+// This library does not follow semantic-versioning,
+// so we were not able to define version macros.
+// Please contact the author.
+// Version: 3.1.3.3.
+
 // JSAnimatedImagesView
 #define COCOAPODS_POD_AVAILABLE_JSAnimatedImagesView
 #define COCOAPODS_VERSION_MAJOR_JSAnimatedImagesView 1

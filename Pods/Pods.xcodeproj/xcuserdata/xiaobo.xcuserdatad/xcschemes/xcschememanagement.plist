@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pods-AVOSCloud.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-JSAnimatedImagesView.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -47,42 +52,47 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>0761549E4B91F4BE4EE3E045</key>
+		<key>32021125D8AC5850411E5D49</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>27895F40C7AF9434C8791D23</key>
+		<key>4E70A67D0D108286BF3BFA0B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>2B44616D69C98DA3539340DF</key>
+		<key>67F3CAC76517B2922C841E39</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>68551DA23EA6401907A1B75D</key>
+		<key>6B88803837EBE46CFC4587BD</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>7A6F24309419C668329217F5</key>
+		<key>7B91412581537E6A14CF184A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>89E7539981F09866B25A0003</key>
+		<key>8732A54C1A92176758755B0D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>E7721792830968DEDAACDD4B</key>
+		<key>9E1B26F6FBC817833C07487B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>FC59296E6D392D30DE088040</key>
+		<key>E9EBA2DAC8B66C857932FC68</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FAFABA32A2FEF648D7B29F80</key>
 		<dict>
 			<key>primary</key>
 			<true/>

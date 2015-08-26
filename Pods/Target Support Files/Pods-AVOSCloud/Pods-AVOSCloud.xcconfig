@@ -1,0 +1,2 @@
+PODS_AVOSCLOUD_LIBRARY_SEARCH_PATHS = "$(PODS_ROOT)/AVOSCloud"
+PODS_AVOSCLOUD_OTHER_LDFLAGS = -l"AVOSCloudLib" -l"icucore" -l"sqlite3" -framework "CFNetwork" -framework "CoreGraphics" -framework "CoreLocation" -framework "CoreTelephony" -framework "MobileCoreServices" -framework "QuartzCore" -framework "Security" -framework "SystemConfiguration"

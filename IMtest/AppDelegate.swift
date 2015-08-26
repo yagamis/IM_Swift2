@@ -78,6 +78,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate,RCIMUserInfoDataSource {
         //设置用户信息提供者为自己 AppDelegate
         RCIM.sharedRCIM().userInfoDataSource = self
         
+        //获得LeanCloud授权
+        //如果使用美国站点，请加上这行代码 [AVOSCloud useAVCloudUS];
+        
+        AVOSCloud.setApplicationId("eqwfca1zu9t2l9awjvaphmmbh6zd3w7tinu4gt3wqwssedyf", clientKey: "nq6td5v6s6e7hwd6ag2zfm03q3mhqfbpc7owhnzgn08h172o")
 
         
         // Override point for customization after application launch.

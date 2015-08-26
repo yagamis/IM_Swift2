@@ -22,6 +22,8 @@ class RegTableViewController: UITableViewController {
     
     var possibleInputs : Inputs = []
     
+    var doneButton : UIBarButtonItem?
+    
     //检查必填
     func checkRequeriedField() {
         
@@ -64,7 +66,7 @@ class RegTableViewController: UITableViewController {
         self.navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: UIBarButtonSystemItem.Done, target: self, action: "doneButtonTap")
         self.navigationItem.rightBarButtonItem?.enabled = false
         
-        let doneButton = self.navigationItem.rightBarButtonItem
+         doneButton = self.navigationItem.rightBarButtonItem
         
         
         let v1 = AJWValidator(type: .String)
@@ -86,7 +88,7 @@ class RegTableViewController: UITableViewController {
                 self.possibleInputs.subtractInPlace(Inputs.user)
             }
             
-            doneButton?.enabled = self.possibleInputs.isAllOK()
+            self.doneButton?.enabled = self.possibleInputs.isAllOK()
 
         }
         
@@ -107,7 +109,7 @@ class RegTableViewController: UITableViewController {
                 self.pass.highlightState = UITextBoxHighlightState.Wrong(errorMsg!)
                 self.possibleInputs.subtractInPlace(Inputs.pass)
            }
-            doneButton?.enabled = self.possibleInputs.boolValue
+            self.doneButton?.enabled = self.possibleInputs.boolValue
             
         }
         
@@ -126,7 +128,7 @@ class RegTableViewController: UITableViewController {
                 self.possibleInputs.subtractInPlace(Inputs.mail)
                 
             }
-            doneButton?.enabled = self.possibleInputs.boolValue
+            self.doneButton?.enabled = self.possibleInputs.boolValue
             
         }
 
@@ -137,10 +139,53 @@ class RegTableViewController: UITableViewController {
         
     }
     
+    //注册新用户
     func doneButtonTap() {
         
-//        checkRequeriedField()
-        //注册新用户
+        //显示一个载入提示
+        self.pleaseWait()
+        
+        //建立用户的 AVObject
+        let user = AVObject(className: "XBUser")
+        
+        //把输入的文本框的值，设置到对象中
+        user["user"] = self.user.text
+        user["pass"] = self.pass.text
+        user["mail"] = self.mail.text
+        user["region"] = self.region.text
+        user["question"] = self.question.text
+        user["answer"] = self.answer.text
+        
+        //查询用户是否已经注册
+        let query = AVQuery(className: "XBUser")
+        query.whereKey("user", equalTo: self.user.text)
+        
+        //执行查询
+        query.getFirstObjectInBackgroundWithBlock { (object, e) -> Void in
+            self.clearAllNotice()
+
+            
+            //如果查询到相关用户
+            if object != nil {
+                self.errorNotice("用户已注册")
+                self.user.becomeFirstResponder()
+                self.doneButton?.enabled = false
+                
+            } else {
+                
+                //用户注册
+                user.saveInBackgroundWithBlock({ (succeed, error) -> Void in
+                    if succeed {
+                        self.successNotice("注册成功")
+                        self.navigationController?.popViewControllerAnimated(true)
+                        
+                    } else {
+                        print(error)
+                    }
+                })
+                
+            }
+        }
         
     
     }

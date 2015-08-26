@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "68551DA23EA6401907A1B75D"
+               BlueprintIdentifier = "67F3CAC76517B2922C841E39"
                BuildableName = "libPods-AJWValidator.a"
                BlueprintName = "Pods-AJWValidator"
                ReferencedContainer = "container:Pods.xcodeproj">
