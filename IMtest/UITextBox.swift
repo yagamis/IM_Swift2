@@ -162,7 +162,7 @@ class UITextBox: UITextField {
         }
         setHighlightText(placeholderLabel!, state: self._highlightState)
         layoutPlaceholderLabel(rect,!isFirstResponder())
-        return CGRect.zeroRect
+        return CGRect.zero
     }
     
     
@@ -250,19 +250,19 @@ extension UIColor {
             regular = try NSRegularExpression(pattern: "(#?|0x)[0-9a-fA-F]{2,}", options: NSRegularExpressionOptions.CaseInsensitive)
         } catch { return nil }
         
-        let length = distance(hex.startIndex, hex.endIndex)
+        let length = hex.startIndex.distanceTo(hex.endIndex)
         guard let result = regular.firstMatchInString(hex, options: NSMatchingOptions(rawValue: 0), range: NSMakeRange(0, length)) else {
             print("error: hex isn't color hex value!")
             return nil
         }
         
-        let start = advance(hex.startIndex, result.rangeAtIndex(1).length + result.rangeAtIndex(1).location)
-        let end = advance(hex.startIndex, result.range.length + result.range.location)
+        let start = hex.startIndex.advancedBy(result.rangeAtIndex(1).length + result.rangeAtIndex(1).location)
+        let end = hex.startIndex.advancedBy(result.range.length + result.range.location)
         let number = strtoul(hex[start..<end], nil, 16)
         let b = CGFloat((number >>  0) & 0xFF) / 255
         let g = CGFloat((number >>  8) & 0xFF) / 255
         let r = CGFloat((number >> 16) & 0xFF) / 255
-        let a = distance(start, end) > 6 ? CGFloat((number >> 24) & 0xFF) / 255 : 1
+        let a = (start.distanceTo(end)) > 6 ? CGFloat((number >> 24) & 0xFF) / 255 : 1
         
         self.init(red: r, green: g, blue: b, alpha: a)
     }

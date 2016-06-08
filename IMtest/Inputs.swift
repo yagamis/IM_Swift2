@@ -39,7 +39,7 @@ extension Inputs {
         
         //在数目范围内查找,若找到, 次数增加
         for time in 0..<count where contains(Inputs(rawValue: 1 << time)) {
-            found++
+            found += 1
         }
         
         //比较次数与选项的数目

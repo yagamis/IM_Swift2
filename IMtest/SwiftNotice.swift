@@ -89,8 +89,7 @@ class SwiftNotice: NSObject {
         windows.append(window)
         
         if autoClear {
-            let selector = Selector("hideNotice:")
-            self.performSelector(selector, withObject: window, afterDelay: 1)
+            self.performSelector(#selector(SwiftNotice.hideNotice(_:)), withObject: window, afterDelay: 1)
         }
     }
     static func wait() {
@@ -182,7 +181,7 @@ class SwiftNotice: NSObject {
         windows.append(window)
 
         if autoClear {
-            let selector = Selector("hideNotice:")
+            let selector = #selector(SwiftNotice.hideNotice(_:))
             self.performSelector(selector, withObject: window, afterDelay: 3)
         }
     }
